@@ -13,7 +13,7 @@ const app = express();
 
 
 const corsOptions = {
-    origin: 'https://fullstactassigment-frontend-hgo8m8so1.vercel.app',
+    origin: 'https://fullstactassigment-frontend.vercel.app/',
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'], 
   };
