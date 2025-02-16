@@ -10,11 +10,12 @@ dotenv.config();
 const app = express();
 
 const allowedOrigins = [
-  "https://fullstactassigment-frontend.vercel.app/",
-  "https://fullstactassigment-fron-git-17ea96-portfolios-projects-771db464.vercel.app/",
-  "https://fullstactassigment-frontend-hgo8m8so1.vercel.app/",
+  "https://fullstactassigment-frontend.vercel.app",
+  "https://fullstactassigment-fron-git-17ea96-portfolios-projects-771db464.vercel.app",
+  "https://fullstactassigment-frontend-hgo8m8so1.vercel.app",
   "http://localhost:3000",
 ];
+
 
 const corsOptions = {
   origin: (origin, callback) => {
